@@ -1,7 +1,16 @@
 import datetime
 import json
 import time
-from enum import StrEnum
+
+# Clinical Squared change
+# from enum import StrEnum
+
+from enum import Enum
+class StrEnum(str, Enum):
+            pass
+#########################
+
+
 from typing import Optional, BinaryIO, List
 
 from graphchain_client.http_client import HttpClient, HttpClientConsts

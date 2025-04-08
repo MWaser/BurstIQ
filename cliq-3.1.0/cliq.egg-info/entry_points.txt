@@ -1,0 +1,3 @@
+[console_scripts]
+cliq = cliq:main
+cliq_sudo = cliq_sudo:main
